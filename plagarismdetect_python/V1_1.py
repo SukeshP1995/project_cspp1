@@ -97,6 +97,7 @@ def stringMatching(file1, file2):
             j += 1
         i += 1
     s = reduce(lambda x, y: x*y, counts)
+    \
     print(s)
     l = len(data1)+len(data2)
     print(l)
